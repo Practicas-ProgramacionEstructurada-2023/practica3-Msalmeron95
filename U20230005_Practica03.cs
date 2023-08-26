@@ -13,8 +13,8 @@ namespace MyApp// Note: actual namespace depends on the project name.
             double precio;
 
             //Capturando datos.
-            Console.WriteLine("\n------------------- Capturando Variables -------------------\n");
-            Console.WriteLine("\nIngrese la marca del Zapato a comprar: ");
+            Console.WriteLine("\n------------------- Capturando Variables -------------------");
+            Console.WriteLine("Ingrese la marca del Zapato a comprar: ");
             Marca_Zapato = Convert.ToString(Console.ReadLine());
 
             Console.WriteLine("\nIngrese el color del Zapato a comprar: ");
