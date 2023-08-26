@@ -32,12 +32,22 @@ namespace MyApp// Note: actual namespace depends on the project name.
 
         //Imprimiendo resultado
         Console.WriteLine("\n------------------- Imprimiendo resultados -------------------\n");
+        Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("\n La marca de zapatos a comprar es: " + Marca_Zapato);
+        Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("\n El color de los zapatos a comprar es: " + Color_Zapato);
+        Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("\n La cantidad de zapatos a comprar es: " + cantidad);
+        Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("\n El precio poar de zapatos a comprar es: " + precio);
+        Console.ForegroundColor = ConsoleColor.Magenta;
         Console.WriteLine("\n El total a pagar es: " + "$" + Total);
+        Console.ResetColor();
         Console.WriteLine("\n------------------- Fin imprimiendo resultados -------------------\n");
+
+        //Modificacion de colores 
+        
+        
         }
     }
 }
