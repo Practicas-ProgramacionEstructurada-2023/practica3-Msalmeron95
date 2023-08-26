@@ -30,7 +30,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
             double Total = cantidad * precio;
 
 
-        //Imprimiendo resultado
+        //Imprimiendo resultado Modificacion de colores.
         Console.WriteLine("\n------------------- Imprimiendo resultados -------------------\n");
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("\n La marca de zapatos a comprar es: " + Marca_Zapato);
@@ -43,10 +43,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
         Console.ForegroundColor = ConsoleColor.Magenta;
         Console.WriteLine("\n El total a pagar es: " + "$" + Total);
         Console.ResetColor();
-        Console.WriteLine("\n------------------- Fin imprimiendo resultados -------------------\n");
-
-        //Modificacion de colores 
-        
+        Console.WriteLine("\n------------------- Fin imprimiendo resultados -------------------\n");      
         
         }
     }
