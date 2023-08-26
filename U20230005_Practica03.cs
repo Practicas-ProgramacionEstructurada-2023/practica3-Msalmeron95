@@ -14,13 +14,15 @@ namespace MyApp// Note: actual namespace depends on the project name.
 
             //Capturando datos.
             Console.WriteLine("\n------------------- Capturando Variables -------------------");
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Ingrese la marca del Zapato a comprar: ");
             Marca_Zapato = Convert.ToString(Console.ReadLine());
 
             Console.WriteLine("\nIngrese el color del Zapato a comprar: ");
             Color_Zapato = Convert.ToString(Console.ReadLine());
 
-            Console.WriteLine("\nIngrese la cantidad de Zapatos a comprar: ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("\nIngrese la cantidad de pares de Zapatos a comprar: ");
             cantidad = Convert.ToInt16(Console.ReadLine());
 
             Console.WriteLine("\nIngrese el precio del par Zapato: ");
